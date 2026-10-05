@@ -68,7 +68,6 @@ cd ../event_logs
 ls
 
 # 7. For user privacy, remove all files containing IP addresses (files with "ipaddr" in the filename) from ./data/raw and ./data/processed/user_logs
-<<<<<<< HEAD
 cd ../..
 cd raw
 rm *ipaddr* 
@@ -77,9 +76,6 @@ cd ../processed/user_logs
 rm *ipaddr*
 # ls
 
-=======
-rf -rf ./data
->>>>>>> 93b0ce62c8e1521dc6a70f3f9dbd56faa69ebad7
 
 # 8. Create a file named ./data/inventory.txt that lists all the files in the subfolders of ./data/processed
 cd ..
